@@ -80,6 +80,7 @@ export default function Dashboard() {
         <div>🎯 Winrate: {winrate.toFixed(2)}%</div>
         <div>📊 Apostas: {total}</div>
         <div>💵 Investido: R$ {totalInvestido}</div>
+        <div>🔴 Reds: {reds}</div>
       </div>
 
       {/* GRÁFICO BANCA */}
